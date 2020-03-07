@@ -122,9 +122,16 @@
 			      <h3>Latest Reports</h3>
 		       </div>
 		       <?php if ( isset($reports) && !empty($reports) ) {
+				   $i = 0;
 		       		foreach ($reports as $item) {
-		       			echo '<div class="row"><div class="report_box col-md-7 report_content_half_size"><h4><a href="'.base_url('industry-reports/'.$item->url).'">'.$item->title.'</a></h4><p>'.($item->short_description ? strip_tags($item->short_description) : 'No Description Available.').'</p><a href="'.base_url('industry-reports/'.$item->url).'">Continue Reading ></a></div><div class="latest_report_image col-md-5"><img src="C:\xampp\htdocs\CodeIgniter\assets\images\logo.png"/></div>'.'<hr></div>';
-		       		}
+		       			if( $i % 2 == 0 ){
+							echo '<div class="row"><div class="report_box col-md-7 report_content_half_size"><h4><a href="'.base_url('industry-reports/'.$item->url).'">'.$item->title.'</a></h4><p>'.($item->short_description ? strip_tags($item->short_description) : 'No Description Available.').'</p><a href="'.base_url('industry-reports/'.$item->url).'">Continue Reading ></a></div><div class="latest_report_image col-md-5"><img src="C:\xampp\htdocs\CodeIgniter\assets\images\logo.png"/></div>'.'<hr></div>';
+						}
+						else {
+							echo '<div class="row"><div class="latest_report_image col-md-5"><img src="C:\xampp\htdocs\CodeIgniter\assets\images\logo.png"/></div><div class="report_box col-md-7 report_content_half_size"><h4><a href="'.base_url('industry-reports/'.$item->url).'">'.$item->title.'</a></h4><p>'.($item->short_description ? strip_tags($item->short_description) : 'No Description Available.').'</p><a href="'.base_url('industry-reports/'.$item->url).'">Continue Reading ></a></div>'.'<hr></div>';
+						}
+						$i++;
+					}
 		       } ?>
 		    </div>
 		</div>
