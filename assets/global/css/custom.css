@@ -1,0 +1,29 @@
+.page-logo a{
+	text-decoration: none;
+}
+.page-logo a,.page-logo a:hover,.page-logo a:active{
+	color: #36c6d3;
+}
+.page-logo a span{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 46px;
+}
+.form-group .error{
+	color: #e73d4a;
+}
+.label.label-request-sample {
+    background: #1160a5;
+}
+.label.label-speak-to-analyst {
+    background: #e3cb00;
+}
+.label.label-report-customization {
+    background: #3cb878;
+}
+.label.label-inquiry-before-buying {
+    background: #8c6239;
+}
+.label.label-request-toc {
+    background: #0098da;
+}

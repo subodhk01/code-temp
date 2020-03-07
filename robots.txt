@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /contact-us
+Disallow: /request-sample/*
+Disallow: /speak-to-analyst/*
+Disallow: /report-customization/*
+Disallow: /inquiry-before-buying/*
+Disallow: /request-toc/*
+Disallow: /search

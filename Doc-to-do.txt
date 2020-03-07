@@ -1,0 +1,42 @@
+For Report Page
+-Report Title
+-Report URL
+-category
+-short description (HTML Editor)
+-full description (HTML Editor)
+-table of content (HTML Editor)
+-list of table (HTML Editor)
+-list of charts (HTML Editor)
+-report status
+-no of pages
+-delivery format
+-single user licence (field for price)
+-multi user licence (field for price)
+-corporate licence (field for price)
+-status (published or upcoming)
+-published date
+-meta title
+-meta desciption
+-meta keyword
+
+For PR (blog or news section)
+-PR Name
+-category
+-url
+-brief description
+-full description
+-related report
+-type (Press-Release / News / Article)
+-published date
+-meta title
+-meta description
+-meta keyword
+
+For Normal Pages
+-page title (page heading)
+-page url
+-page description
+-meta title
+-meta description
+-meta keyword
+-meta description
